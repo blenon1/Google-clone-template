@@ -1,0 +1,141 @@
+*{
+    background-color:rgba(17, 24, 39, 1);
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;   
+}
+
+nav {
+    padding-top: 20px;
+    padding-right: 20px;
+    border-bottom: solid;
+    border-color: brown;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:flex-end;
+}
+button{
+    border-radius: 30px;
+    background-color: gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content:center;
+    border: solid;
+    margin-top: -5px;
+    cursor: pointer;
+    
+}
+
+.google_icon{
+    border-bottom: white;
+}
+
+div.google_image {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+
+
+}
+.G{
+    color: blue;
+}
+.O{
+    color: red;
+}
+.o{
+    color: white;
+}
+.g{
+    color: turquoise;
+}
+.l{
+    color: coral;
+
+}
+.e{
+    color: yellow;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+}
+input{
+    padding-left: ;
+    padding-right: 40px;
+    padding-top:    5px;
+    text-decoration: white;
+    border: solid;
+    border-radius: 5px;
+}
+
+div {
+    border: solid;
+    border-radius: 20px;
+
+}
+
+
+.gsearch{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    margin-right: 50%;
+    border: orangered;
+    padding-left: 50%;
+    padding-bottom: 5%;
+}
+.gsearch .button{
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    position: relative;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0%;
+    position: relative;
+    margin-left: 50%;
+    margin-right: 45%;
+}
+  
+}
+
+footer{
+    display: flex;
+    margin-right: 50%;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+
